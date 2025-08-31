@@ -18,7 +18,7 @@ module.exports = {
   ANTI_DELETE: convertToBool(process.env.ANTI_DELETE || "true"),
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   AUTO_STICKER: process.env.AUTO_STICKER || "true",
-  AUTO_REPLY: process.env.AUTO_REPLY || "true",
+  AUTO_REPLY: process.env.AUTO_REPLY || "false",
   OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/ew4vew.jpg",
   AUTO_REACT: convertToBool(process.env.AUTO_REACT || "true"),
